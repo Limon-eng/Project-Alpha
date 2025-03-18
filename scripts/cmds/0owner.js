@@ -18,13 +18,13 @@ config: {
     const ownerInfo = {
       name: 'Limon Hossain Shuvo',
       gender: 'Male',
-      age: '13-10-2007',
-      height: '5'10"',
+      age: '13_10_2007',
+      height: '5_10',
       facebookLink: 'https://www.facebook.com/adminn.2018',
       nick: 'Shuvo'
     };
 
-    const bold = 'https://i.imgur.com/fGY8plC.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = ''; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
