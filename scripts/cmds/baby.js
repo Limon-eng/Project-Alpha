@@ -6,9 +6,9 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
   name: "bby",
-  aliases: ["baby", "bbe", "babe"],
+  aliases: ["baby", "bbe", "babe","mohua","mitu"],
   version: "6.9.0",
-  author: "dipto",
+  author: "limon",
   countDown: 0,
   role: 0,
   description: "better then all sim simi",
@@ -26,12 +26,12 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
 
   try {
     if (!args[0]) {
-      const ran = ["Bolo baby", "hum", "type help baby", "type !baby hi"];
+      const ran = ["Bolo baby", "hum", "baby hi","ki bolba bolo first"];
       return api.sendMessage(ran[Math.floor(Math.random() * ran.length)], event.threadID, event.messageID);
     }
 
     if (args[0] === 'remove') {
-      const fina = dipto.replace("remove ", "");
+      const fina = limon.replace("remove ", "");
       const dat = (await axios.get(`${link}?remove=${fina}&senderID=${uid}`)).data.message;
       return api.sendMessage(dat, event.threadID, event.messageID);
     }
