@@ -1,8 +1,8 @@
 module.exports = {
  config: {
-	 name: "ownullash",
+	 name: "Limon",
 	 version: "1.0",
-	 author: "Ullash ッ ☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆",
+	 author: "Limon Hossain",
 	 countDown: 5,
 	 role: 2,
 	 shortDescription: "no prefix",
@@ -11,7 +11,7 @@ module.exports = {
  },
 
  onStart: async function() {
-	 const expectedAuthor = "Ullash ッ ☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆";
+	 const expectedAuthor = "Limon Hossain";
 	 if (this.config.author !== expectedAuthor) {
 		 throw new Error("Unauthorized change detected in the author field. Please restore the original author.");
 	 }
